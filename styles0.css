@@ -1,0 +1,117 @@
+* {  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #001f3f; /* Dark blue background */  
+    color: #ffffff; /* White text */  
+}  
+  
+input[type="text"] {  
+    width: 250px;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px 0 0 5px;  
+    font-size: 16px;  
+}  
+
+.search-btn {  
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 0 5px 5px 0;  
+    background-color: #ffcc00; /* Yellow for button */  
+    color: #003366;  
+    font-size: 16px;  
+    cursor: pointer;  
+}  
+
+.search-btn:hover {  
+    background-color: #ffd700; /* Darker yellow on hover */  
+}  
+
+.container {  
+    width: 80%;  
+    margin: 0 auto;  
+}  
+
+header {  
+    background-color: #003366; /* Darker blue for header */  
+    padding: 26px 0;  
+    text-align: center;  
+}  
+
+h1 {  
+    margin: 0;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
+    display: flex;  
+    justify-content: center;  
+}  
+
+nav ul li {  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+nav ul li a:hover {  
+    text-decoration: underline;  
+}  
+
+.hero {  
+    background-color: #ffcc00; /* Yellow background for hero section */  
+    padding: 50px 20px;  
+    text-align: center;  
+}  
+
+.hero h2 {  
+    font-size: 2.5em;  
+    margin: 0;  
+}  
+
+section {  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+h2 {  
+    margin: 20px 0;  
+}  
+
+.book-grid {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+}  
+
+.book-item {  
+    background: #003366; /* Dark blue for book items */  
+    border: 1px solid #ffffff; /* White border */  
+    border-radius: 5px;  
+    padding: 15px;  
+    margin: 10px;  
+    width: 150px;  
+    text-align: center;  
+}  
+
+.book-item img {  
+    width: 100%;  
+    height: auto;  
+}  
+
+footer {  
+    background-color: #001f3f; /* Dark blue for footer */  
+    color: white;  
+    text-align: center;  
+    padding: 10px 0;  
+}  
